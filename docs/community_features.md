@@ -208,6 +208,11 @@ Here is a list of general improvements that have been made, ordered from newest 
 - ([#1846]) Added new default menu to set the length of time to register a `Hold Press` for use with `Sticky Shift`, `Performance View`, and the `Keyboard Sidebar Layouts.`
   - Set the default Hold Press time by accessing `SETTINGS > DEFAULTS > HOLD PRESS TIME`
 
+#### 3.18 - Remove Timestretching From Audio Clip Sample
+- ([#1542]) Updated audio clip's sample loading to load sample without time stretching. Added new shortcut to remove timestretching from an audio clip and shorten / extend an audio clip without timestretching. 
+  - Press `▼︎▲︎` + `◀︎▶︎` to set the Audio Clip length equal to the length of the audio sample. This will effectively remove timestretching from the audio sample.
+  - Press `SHIFT` + `◀︎▶︎` + `turn ◀︎▶︎` to shorten / lengthen the audio clip without timestretching.
+
 ## 4. New Features Added
 
 Here is a list of features that have been added to the firmware as a list, grouped by category:
@@ -1221,6 +1226,8 @@ different firmware
 [#1846]: https://github.com/SynthstromAudible/DelugeFirmware/pull/1846
 
 [#2137]: https://github.com/SynthstromAudible/DelugeFirmware/pull/2137
+
+[#1542]: https://github.com/SynthstromAudible/DelugeFirmware/pull/1542
 
 [Automation View Documentation]: https://github.com/SynthstromAudible/DelugeFirmware/blob/release/1.0/docs/features/automation_view.md
 
